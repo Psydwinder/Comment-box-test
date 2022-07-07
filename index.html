@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment Box</title>
+  </head>
+  <body>
+    <form class="container">
+      <div class="comments">
+        <h3>Leave a reply</h3>
+        <div class="create_comment">
+          <label for="comment_input" class="comment_label"
+            >Leave a comment</label
+          >
+          <textarea id="userComment" class="comment_input" rows="6"></textarea>
+          <span class="characters" id="charCount">140/140</span>
+
+          <div class="comment_grid">
+            <div>
+              <label for="comment_name" class="name_label">Your Name</label>
+              <input type="text" class="comment_name" id="userName" />
+            </div>
+            <div>
+              <label for="email_input" class="email_label">Your Email</label>
+              <input type="email" class="email_input" id="userEmail" />
+            </div>
+          </div>
+        </div>
+        <button class="btn_submit" id="submit">Submit</button>
+        <div class="display_comment">
+          <h3>Comments</h3>
+          <div class="comment_parent">
+            <div class="comment1">
+              <p id="comment1"></p>
+            </div>
+            <div class="comment_meta">
+              <div class="meta_date_author">
+                <span class="author_name" id="meta_author"></span>
+                <span class="author_email" id="meta_email"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

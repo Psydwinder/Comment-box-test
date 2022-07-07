@@ -1,0 +1,92 @@
+input:focus {
+  outline: 1px solid royalblue;
+  box-shadow: 1px 1px 8px 1px royalblue;
+}
+
+textarea:focus {
+  outline: 1px solid royalblue;
+  box-shadow: 1px 1px 8px 1px royalblue;
+}
+
+.container {
+  margin: 10% auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.comments {
+  border: 1px solid #eee;
+  padding: 40px 40px 80px 40px;
+}
+
+.comments * {
+  box-sizing: border-box;
+}
+
+.name_label,
+.email_label,
+.comment_label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.comment_input,
+.email_input,
+.comment_name {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+}
+
+.comment_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  margin-top: 30px;
+}
+
+.btn_submit {
+  background: #222;
+  padding: 12px 16px;
+  margin-top: 20px;
+  color: #eee;
+}
+
+.display_comment {
+  margin-top: 80px;
+}
+
+.comment_parent {
+  border: 1px solid #eee;
+  border-bottom: 3px solid #ccc;
+  padding: 20px;
+}
+
+.comment1 p {
+  margin-top: 0;
+}
+
+.comment_meta {
+  align-items: center;
+}
+
+.meta_date_author {
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.author_name {
+  margin-left: 22px;
+  font-weight: bold;
+}
+
+.author_email {
+  padding-left: 20px;
+}
+
+.characters {
+  margin-top: 500px;
+  float: right;
+}
